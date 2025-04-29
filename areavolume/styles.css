@@ -1,0 +1,22 @@
+000000........................................fbody{
+    background-color:#44464A;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.inputs{
+    border:3px solid green;
+    margin:20px 0px;
+}
+
+.inputtext{
+    font-size: 36px;
+}
+
+
+.buttons{
+    border: 3px solid green;
+    margin:20px 0px;
+}

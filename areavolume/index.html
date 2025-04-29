@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area + Calculations</title>
+    <link rel="stylesheet" href="styles.css">
+    <script href="calculation.js" defer></script>
 </head>
 <body>
-   <header></header> 
+   <header>
+    <h1>Rectangle Calculator</h1>
+   </header> 
    <main>
     <div class="inputs">
-        <label for="length">Length</label><input id="lenght" type="number">
-        <label for="width">Width</label><input for="width" type="number">
-        <label for="height">Height</label><input id="height" type="number"/>
+        <label class="inputtext" for="length">Length</label><input id="lenght" type="number">
+        <label class="inputtext"  for="width">Width</label><input for="width" type="number">
+        <label class="inputtext"  for="height">Height</label><input id="height" type="number"/>
     </div>
     <div class="buttons">
-        <Button></Button>
-        <Button></Button>
-        <Button></Button>
-        <Button></Button>
+        <Button>Area</Button>
+        <Button>Volume</Button>
+        <Button>Perimeter</Button>
+        <Button>SurfaceArea</Button>
     </div>
     <div class="answer">
         <label for="answer"></label><input type="number" id ="answer">
