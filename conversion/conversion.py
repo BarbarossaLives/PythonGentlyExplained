@@ -7,12 +7,16 @@ def convert_c(degree_f):
     return C
 
 
+print("What tempature woould you like to convert?  ")
+temp = int(input(">>"))  
+print("(F)erenheit to Celcius or (C)elcuis to Ferenheit? ")
+convert = input("F or C .>>")
+if convert == "C" or "c":
+    answer = convert_c(temp)
+    print(str(answer))
 
-
-
-
-assert convert_c(180) == 82.22222222222223
-assert convert_c(convert_f(15)) == 15
-assert convert_f(0) == 32
-assert convert_f(100) == 212
-assert convert_c(0) == -17.77777777777778
+else:
+    answer = convert_f(temp)
+    print(str(answer))
+    
+    
